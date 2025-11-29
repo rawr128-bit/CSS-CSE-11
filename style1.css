@@ -1,0 +1,114 @@
+/* h2 {
+    color: aquamarine;
+}
+p{
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+}
+.par {
+    color: blueviolet;
+}
+
+#last {
+    color: aqua;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: blue;
+    background-color: blanchedalmond;
+    align-content: center;
+    margin: 100px;
+    border: 2px solid red;
+}
+  */
+/* .abhi{
+    display: block;
+}
+
+.abhi1{
+     display: inline;
+} */
+
+/* body {
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    border: 2px solid #555;
+    margin: 40px;
+    padding: 25px 40px 40px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.card {
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+    margin: 30px 25px 0 0;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 60px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card span.price {
+    display: block;
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.book {
+    background-color: #b7be25;
+}
+.headphones {
+    background-color: #e21d5c;
+}
+.watch {
+    background-color: #b8e2f2;
+}
+
+
+.float{
+    float: left;
+    background-color: aqua;
+} */
+
+.container{
+    display: flex;
+    height: 1400px;
+    width: 1100px;
+    background-color: aqua;
+    flex-direction: row;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black ;
+    background-color: solid rgb(10, 156, 37);
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+
+    
+}
+
+.item2{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
+}
